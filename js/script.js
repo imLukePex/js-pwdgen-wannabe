@@ -13,5 +13,5 @@ const userSurname = prompt("Inserisci il tuo cognome");
 const userFavorite = prompt("Quale è il tuo colore preferito?");
 
 // Mostrare a pagina il risultato
-document.getElementById('mio_id').innerHTML = `Ecco il risultato: ${userName} ${userSurname} ${userFavorite} 23`;
+document.getElementById('mio_id').innerHTML = `Ecco la tua password: ${userName}${userSurname}${userFavorite}23`;
 
