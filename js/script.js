@@ -12,6 +12,9 @@ const userSurname = prompt("Inserisci il tuo cognome");
 // Chiedi all'utente il suo colore preferito
 const userFavorite = prompt("Quale è il tuo colore preferito?");
 
+// Output dei dati raccolti
+let datiUser = `${userName}${userSurname}${userFavorite}23`;
+
 // Mostrare a pagina il risultato
-document.getElementById('mio_id').innerHTML = `Ecco la tua password: ${userName}${userSurname}${userFavorite}23`;
+document.getElementById('mio_id').innerHTML = `La tua password è: ${datiUser}`;
 
